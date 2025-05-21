@@ -1,0 +1,1 @@
+/home/infilit/.config/polybar/docky/scripts/launcher.sh

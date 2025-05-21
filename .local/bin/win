@@ -1,0 +1,9 @@
+#!/bin/bash
+
+TTY_DEVICE=$(tty)
+
+if [[ "$TTY_DEVICE" =~ ^/dev/tty[0-9]+$ ]]; then
+	startx $(which dwm)
+else
+	echo "This is for running in a TTY only!"
+fi

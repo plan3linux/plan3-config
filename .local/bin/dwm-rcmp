@@ -1,0 +1,19 @@
+#!/bin/bash
+
+CONFIG=$HOME/.config
+
+run_as_root() {
+	cd $1
+	cd dwm
+	make clean install
+	
+	cd ../st
+	make clean install
+	
+	cd ../dmenu
+	make clean install
+}
+
+sudo bash -c "$(declare -f run_as_root); run_as_root '$CONFIG'"
+
+

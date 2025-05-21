@@ -1,0 +1,6 @@
+[submodule "emacs"]
+	path = emacs
+	url = https://github.com/doomemacs/doomemacs.git
+[submodule ".config/emacs"]
+	path = .config/emacs
+	url = https://github.com/doomemacs/doomemacs.git

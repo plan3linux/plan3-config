@@ -1,0 +1,35 @@
+#!/bin/bash
+
+echo -e "
+                 WXK0kxxON						\e[37;44mQUT\e[0m 
+               WXx;'....'lK                                             \e[37;44m   \e[0m
+             W0o;.........c0                                            
+           W0l'...';,.....'oN                                           
+          Nd,..;lkKXXx'...'dN                                           
+         Xo'.:kXW    0;..'lX                                            
+        No',xN      W0dlcl0                                             
+       Wk,,OW      WNNWNNXNW                                            
+       Nl'xW      WNNWWWWNNWWWWWWWWWWW                                  
+       Nl;0       WNNNNWNNWWWWWWWWWNNNWWWWWWWW                          
+        K0N       WNNWWWWWWWWWWWWWWWWWWWWWWWNNNWW                       
+                   WNWWWWWWNNWWWWWWWWWWWWWWWWWNNNW                      
+                   WWNNNWWWWNWWNNNWWWWWWWWWWWWWNNNW                     
+                     WNNNNWWNWWWWWWNNWWWWWWWWWWWWWNWWW                  
+                       WNNWWWWWWWWWWWNNWWWWWWWNNNWWWKOKNWW              
+                          WWWWWNNNNWWWNNWWWWWWWNNNWWKo;dXWWWW           
+                           WWNWWWNNNWWNNNNWWNNNNNNNNW0:.lKWNW           
+                             WWWWNXNNNNNNNNNNNNNNNNNWNd';kNNW           
+                                 NklodOKXNNNNWNNNWWWWWOldKNW            
+                                  O,..oxxOKWW         X0N               
+                                  Xc..:Oo'oN                            
+                                  Nl..cXO,'kW                           
+                                  Xc..oNK:.xW                           
+                                  K:.,O K::K                            
+                                  K;.:XWx;xW                            
+                                  0;.lNXclX                             
+                              WWNXd''dNx:O                              
+                   WXKKKKKKK0kl;;'...;:.'lk0KKKKKKKXW                   
+        WNXXXXXXXKOxlccccccc::;,'''''..',,,;:cccc::lxOKXXXXXXXNW        
+       WKdllllllllc::::::::::::::::::;:::::::::::::::clllllllldKW       
+   XOxxdl:;;;::::::::::::::::::::::::::::::::::::::::::::::;;;:lxxxON   
+ W0c'...''''''''''''''''''''''''''''''''''''''''''''''''''''''''...'lK " 
