@@ -2,19 +2,19 @@
 
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
-<menu id="applications-menu" label="Applications" execute="/usr/libexec/openbox-xdg-menu applications"/>
-<menu id="preferences-menu" label="Preferences" execute="/usr/libexec/openbox-xdg-menu preferences"/>
-<menu id="administration-menu" label="Administration" execute="/usr/libexec/openbox-xdg-menu system-settings"/>
-<menu id="terminals-menu" label="Terminals" execute="/usr/libexec/openbox-xdg-menu /etc/xdg/openbox/terminals"/>
-
 <menu id="root-menu" label="Openbox 3">
-  <separator label="Openbox"/>
-  <menu id="applications-menu"/>
-  <menu id="preferences-menu"/>
-  <menu id="administration-menu"/>
+  <separator label="Plan 3"/>
   <separator/>
-  <menu id="terminals-menu"/>
-  <separator/>
+  <item label="Terminal">
+    <action name="Execute">
+      <command>st</command>
+    </action>
+  </item>
+  <item label="File Manager">
+    <action name="Execute">
+      <command>dolphin</command>
+    </action>
+  </item>
   <item label="Reconfigure">
     <action name="Reconfigure" />
   </item>
