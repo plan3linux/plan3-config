@@ -1,9 +1,10 @@
 #!/bin/sh
 
 echo "Installing Packages"
-paru -Syyu bspwm zsh emacs i3-wm i3blocks i3lock i3status kvantum openbox polybar qtile sxhkd volumeicon zen-browser-bin waypaper feh picom
-paru -S dolphin kate kalk xclip ark
-paru -S lxappearance starship zoxide fzf fd eza
+paru -Syyu --noconfirm bspwm zsh emacs i3-wm i3blocks i3lock i3status kvantum openbox polybar qtile sxhkd volumeicon zen-browser-bin waypaper feh picom qt6-multimedia-ffmpeg pipewire-jack ttf-ibm-plex
+paru -S --noconfirm dolphin kate kalk xclip ark
+paru -S --noconfirm lxappearance starship zoxide fzf fd eza
+paru -S --noconfirm sddm kvantum kvantum-qt5 breeze kde-cli-tools rofi fastfetch
 
 echo "Copying Configuration Files"
 cp -r .config ~
@@ -35,3 +36,5 @@ starship preset gruvbox-rainbow -o ~/.config/starship.toml
 
 echo "Overwriting ZSH Config"
 cp p3-zsh ~/.zshrc
+
+sudo systemctl enable sddm --now
