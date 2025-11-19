@@ -1,8 +1,8 @@
 #!/bin/sh
 
 echo "Installing Packages"
-paru -Syyu bspwm zsh emacs i3-wm i3blocks i3lock i3status kvantum openbox polybar qtile sxhkd volumeicon thunar zen-browser-bin waypaper feh picom
-paru -S thunar-volman thunar-archive-plugin thunar-media-tags-plugin gvfs catfish tumbler xclip
+paru -Syyu bspwm zsh emacs i3-wm i3blocks i3lock i3status kvantum openbox polybar qtile sxhkd volumeicon zen-browser-bin waypaper feh picom
+paru -S dolphin kate kalk xclip
 paru -S lxappearance starship zoxide fzf fd eza
 
 echo "Copying Configuration Files"
@@ -12,6 +12,7 @@ echo "Copying Theme and Icons"
 cp -r .local ~
 cp -r .themes ~
 cp -r .icons ~
+cp xresources ~/.Xresources
 
 echo "Compiling Suckless Suite (DWM, ST, DRUN)"
 ~/.local/bin/dwm-rcmp
