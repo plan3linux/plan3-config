@@ -1,5 +1,5 @@
 # plan3-config
-Rhapsody 0.3 Configuration Collection
+Rhapsody 26.0 Configuration Collection
 
 ## Uses
 * [Doom Emacs](https://github.com/doomemacs/doomemacs)
