@@ -5,7 +5,7 @@ paru -Syyu --noconfirm bspwm zsh emacs i3-wm i3blocks i3lock i3status noto-fonts
 #paru -S --noconfirm dolphin kate kalk xclip ark
 paru -S --noconfirm pwvucontrol wireplumber pipewire pipewire-alsa pipewire-pulse
 paru -S --noconfirm thunar gvfs xclip xarchiver xfce4-mixer thunar-archive-plugins thunar-media-tags-plugin thunar-shares-plugins tumbler
-paru -S --noconfirm lxappearance starship zoxide fzf fd eza
+paru -S --noconfirm lxappearance starship zoxide fzf fd eza mpv stalonetray network-manager-applet dunst dex
 paru -S --noconfirm sddm kvantum kvantum-qt5 breeze kde-cli-tools rofi fastfetch
 
 echo "Copying Configuration Files"
