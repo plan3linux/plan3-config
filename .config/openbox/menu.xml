@@ -12,7 +12,7 @@
   </item>
   <item label="File Manager">
     <action name="Execute">
-      <command>dolphin</command>
+      <command>thunar</command>
     </action>
   </item>
   <item label="Reconfigure">
