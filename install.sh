@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Installing Packages"
-paru -Syyu --noconfirm bspwm zsh emacs i3-wm i3blocks i3lock i3status kvantum openbox polybar qtile sxhkd volumeicon zen-browser-bin waypaper feh picom qt6-multimedia-ffmpeg pipewire-jack ttf-ibm-plex
+paru -Syyu --noconfirm bspwm zsh emacs i3-wm i3blocks i3lock i3status noto-fonts kvantum openbox polybar qtile sxhkd volumeicon zen-browser-bin waypaper feh picom qt6-multimedia-ffmpeg pipewire-jack ttf-ibm-plex
 #paru -S --noconfirm dolphin kate kalk xclip ark
 paru -S --noconfirm pwvucontrol wireplumber pipewire pipewire-alsa pipewire-pulse
 paru -S --noconfirm thunar gvfs xclip xarchiver xfce4-mixer thunar-archive-plugins thunar-media-tags-plugin thunar-shares-plugins tumbler
