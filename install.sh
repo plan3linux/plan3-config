@@ -40,3 +40,4 @@ echo "Overwriting ZSH Config"
 cp p3-zsh ~/.zshrc
 
 sudo systemctl enable sddm --now
+sudo systemctl enable NetworkManager --now
