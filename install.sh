@@ -4,7 +4,7 @@ echo "Installing Packages"
 paru -Syyu --noconfirm bspwm zsh emacs i3-wm i3blocks i3lock i3status noto-fonts kvantum openbox polybar qtile sxhkd volumeicon zen-browser-bin waypaper feh picom qt6-multimedia-ffmpeg pipewire-jack ttf-ibm-plex
 #paru -S --noconfirm dolphin kate kalk xclip ark
 paru -S --noconfirm pwvucontrol wireplumber pipewire pipewire-alsa pipewire-pulse
-paru -S --noconfirm thunar gvfs xclip xorg-xsetroot xarchiver xfce4-mixer thunar-archive-plugins thunar-media-tags-plugin thunar-shares-plugins tumbler
+paru -S --noconfirm thunar gvfs xclip xorg-xsetroot xorg-xrandr xarchiver xfce4-mixer thunar-archive-plugins thunar-media-tags-plugin thunar-shares-plugins tumbler
 paru -S --noconfirm lxappearance starship zoxide fzf fd eza mpv stalonetray network-manager-applet dunst dex
 paru -S --noconfirm sddm kvantum kvantum-qt5 breeze kde-cli-tools rofi fastfetch
 
