@@ -7,6 +7,7 @@ paru -S --noconfirm pwvucontrol wireplumber pipewire pipewire-alsa pipewire-puls
 paru -S --noconfirm thunar gvfs xclip xorg-xsetroot xorg-xrandr xarchiver xfce4-mixer thunar-archive-plugins thunar-media-tags-plugin thunar-shares-plugins tumbler
 paru -S --noconfirm lxappearance starship zoxide fzf fd eza mpv stalonetray network-manager-applet dunst dex
 paru -S --noconfirm sddm kvantum kvantum-qt5 breeze kde-cli-tools rofi fastfetch
+paru -S --noconfirm sddm-silent-theme
 
 echo "Copying Configuration Files"
 cp -r .config ~
@@ -16,6 +17,9 @@ cp -r .local ~
 cp -r .themes ~
 cp -r .icons ~
 cp xresources ~/.Xresources
+
+echo "Enabling SDDM Goodies"
+sudo cp sddm.conf /etc/sddm.conf
 
 echo "Compiling Suckless Suite (DWM, ST, DRUN)"
 ~/.local/bin/dwm-rcmp
